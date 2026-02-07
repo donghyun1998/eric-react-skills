@@ -28,3 +28,10 @@ Claude Code에서:
 "UserDashboard 리팩토링해줘"
 "새 컴포넌트 만들어줘"
 ```
+
+## Before / After 예시
+
+[`examples/`](./examples) 디렉토리에서 실제 리팩토링 예시를 확인할 수 있습니다.
+
+- [`before.tsx`](./examples/before.tsx) - 규칙 위반 코드 (몬스터 컴포넌트, 옵셔널 전염, 이정표 제거 등)
+- [`after.tsx`](./examples/after.tsx) - 스킬 규칙 적용 후 리팩토링된 코드
